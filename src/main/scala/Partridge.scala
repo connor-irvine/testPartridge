@@ -4,11 +4,10 @@ object Partridge {
   val terms: List[String] = "Partridge" :: "PearTree" :: "Chat" :: "Dan" :: "Toberlone" :: "Lynn" :: "AlphaPapa" :: "Nomad" :: Nil
 
 
-  def apply(x: List[String]): String =
-    if (x == List("AlphaPapa")) {
+  def apply(input: List[String]): String =
+    if (input.exists(terms.contains(_))) {
       "Mines a pint!"
-
-    } else {
+    }else{
       "Lynn, I've pierced my foot on a spike!!"
     }
 }
