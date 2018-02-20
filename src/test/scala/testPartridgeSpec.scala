@@ -17,7 +17,7 @@ class testPartridgeSpec extends WordSpec with MustMatchers {
       Partridge(List("PearTree")) mustEqual "Mines a pint!"
     }
     "return 'Mines a pint!!' if there are two matches" in {
-      Partridge(List(""))
+      Partridge(List("Lynn", "Dan")) mustEqual "Mines a pint!!"
     }
   }
 }
