@@ -14,17 +14,3 @@ object Partridge {
   }
 
 }
-
-
-
-
-
-
-
-
-//    if (input.exists(terms.contains(_))) {
-//      "Mines a pint!"
-//    }else{
-//      "Lynn, I've pierced my foot on a spike!!"
-//    }
-//}
